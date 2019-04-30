@@ -50,10 +50,10 @@ to each element. An example would be "multiply each number in this `Array` by
 ## Define `reduce`
 
 As mentioned in the "Character of Enumerables," we need to visit each member of
-a collection. This is common to all Enumerable methods. In the case of `reduce`,
-we're going to accumulate the results of the "work" to produce a new, single
-value. An example would be "sum up an `Array` of numbers." You combine each
-element into the new aggregate total by updating the aggregate by using an
+a collection. This is common to all Enumerable methods. In the case of
+`reduce`, we're going to accumulate the results of the "work" to produce a new,
+single value. An example would be "sum up an `Array` of numbers." You combine
+each element into the new aggregate total by updating the aggregate by using an
 expression like `total = total + current_element`. This updating an aggregator
 value and returning it at the end is the essence of _reduce_.
 
@@ -66,7 +66,7 @@ The `reduce` function should be given a starting point as an argument.
 
 ## Lab
 
-In this lab we're going to write several `map`-like and `reduce`-like
+In this lab, we're going to write several `map`-like and `reduce`-like
 methods and put them in `lib/my_code.rb`:
 
 ### `map`-like
