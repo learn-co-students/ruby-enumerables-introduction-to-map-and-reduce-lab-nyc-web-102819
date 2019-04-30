@@ -2,8 +2,8 @@
 
 ## Learning Goals
 
-* Define `map`-like function
-* Define `reduce`-like function
+- Define `map`-like function
+- Define `reduce`-like function
 
 ## Introduction
 
@@ -23,7 +23,7 @@ only on `Array`s.
 ## Define `map`
 
 As mentioned in the "Character of Enumerables," we need to visit each member of
-a collection. This is common to all Enumerable methods. In the case of `map`
+a collection. This is common to all Enumerable methods. In the case of `map`,
 we're going to produce a _new_ `Array` after "transforming" or applying "work"
 to each element. An example would be "multiply each number in this `Array` by
 `-1`, returning a new `Array` of the input `Array` "negative-ized."
@@ -50,7 +50,7 @@ to each element. An example would be "multiply each number in this `Array` by
 ## Define `reduce`
 
 As mentioned in the "Character of Enumerables," we need to visit each member of
-a collection. This is common to all Enumerable methods. In the case of `reduce`
+a collection. This is common to all Enumerable methods. In the case of `reduce`,
 we're going to accumulate the results of the "work" to produce a new, single
 value. An example would be "sum up an `Array` of numbers." You combine each
 element into the new aggregate total by updating the aggregate by using an
@@ -71,20 +71,20 @@ methods and put them in `lib/my_code.rb`:
 
 ### `map`-like
 
-* `map_to_negativize(source_array)`
-* `map_to_no_change(source_array)`
-* `map_to_double(source_array)`
-* `map_to_square(source_array)`
+- `map_to_negativize(source_array)`
+- `map_to_no_change(source_array)`
+- `map_to_double(source_array)`
+- `map_to_square(source_array)`
 
 Remember, all `map` methods return a new `Array`.
 
 ### `reduce`-like
 
-* `reduce_to_total(source_array, starting_point)`
-* `reduce_to_all_true(source_array)`
-* `reduce_to_any_true(source_array)`
+- `reduce_to_total(source_array, starting_point)`
+- `reduce_to_all_true(source_array)`
+- `reduce_to_any_true(source_array)`
 
-Remember, all `map` methods return a _value_.
+Remember, all `reduce` methods return a _value_.
 
 ## Conclusion
 
