@@ -15,7 +15,7 @@ we'll sense the non-DRY (Don't Repeat Yourself) quality of writing `map`- and
 It's also a chance to know that if we ever go to a language that doesn't have
 awesome Enumerables built-in, we could write a replacement function easily.
 
-For the next few lessons we're only going to talk about Enumerables in the
+For the next few lessons, we're only going to talk about Enumerables in the
 context of `Array`s. While `Hash`es also feature methods that follow the
 "Character of Enumerable Methods," for ease of learning, we're going to focus
 only on `Array`s.
@@ -59,14 +59,14 @@ value and returning it at the end is the essence of _reduce_.
 
 The `reduce` function should be given a starting point as an argument.
 
-> **Naming History** This idea of "reduce" comes from from lots of places, but
-> we like think about it coming from the realm of cooking where we make a
+> **Naming History** This idea of "reduce" comes from lots of places, but we
+> like to think about it coming from the realm of cooking where we make a
 > "reduction" by applying work (aka "heat") until what's left over is the thing
 > we want.
 
 ## Lab
 
-In the this lab we're going to write several `map`-like and `reduce`-like
+In this lab we're going to write several `map`-like and `reduce`-like
 methods and put them in `lib/my_code.rb`:
 
 ### `map`-like
