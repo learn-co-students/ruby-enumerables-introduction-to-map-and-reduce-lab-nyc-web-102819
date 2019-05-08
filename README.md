@@ -29,7 +29,7 @@ to each element. An example would be "multiply each number in this `Array` by
 `-1`, returning a new `Array` of the input `Array` "negative-ized."
 
 > **Naming History** "Map" comes from mathematics where it means:
-
+>
 > 1. Taking an independent variable
 > 2. Plugging it into an equation
 > 3. Getting a result back
