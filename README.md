@@ -28,6 +28,15 @@ we're going to produce a _new_ `Array` after "transforming" or applying "work"
 to each element. An example would be "multiply each number in this `Array` by
 `-1`, returning a new `Array` of the input `Array` "negative-ized."
 
+Here's a tabular representation:
+
+|Operation|Element 0|Element 1|Element2|
+|-|-|-|-|
+|Base Set|1|2|3|
+|"Negativize" Function Result|-1|-2|-3|
+
+Grand Result = `[-1, -2, -3]`
+
 > **Naming History** "Map" comes from mathematics where it means:
 >
 > 1. Taking an independent variable
@@ -58,6 +67,16 @@ expression like `total = total + current_element`. This updating an aggregator
 value and returning it at the end is the essence of _reduce_.
 
 The `reduce` function should be given a starting point as an argument.
+
+Here's a tabular representation of `reduce`-ing an `Array` of `[1, 2, 3]` with a
+starting point of `0`.
+
+|Operation|Element 0|Element 1|Element2|
+|-|-|-|-|
+|Base Set|1|2|3|
+|Add to previous result function result|1|3|6|
+
+Grand Result = `6`
 
 > **Naming History** This idea of "reduce" comes from lots of places, but we
 > like to think about it coming from the realm of cooking where we make a
