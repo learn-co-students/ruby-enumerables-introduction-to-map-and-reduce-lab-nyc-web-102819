@@ -30,10 +30,30 @@ to each element. An example would be "multiply each number in this `Array` by
 
 Here's a tabular representation:
 
-|Operation|Element 0|Element 1|Element2|
-|-|-|-|-|
-|Base Set|1|2|3|
-|"Negativize" Function Result|-1|-2|-3|
+<table>
+  <thead>
+    <tr>
+      <th>Operation</th>
+      <th>Element 0</th>
+      <th>Element 1</th>
+      <th>Element2</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Base Set</td>
+      <td>1</td>
+      <td>2</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>"Negativize" Function Result</td>
+      <td>-1</td>
+      <td>-2</td>
+      <td>-3</td>
+    </tr>
+  </tbody>
+</table>
 
 Grand Result = `[-1, -2, -3]`
 
@@ -71,10 +91,30 @@ The `reduce` function should be given a starting point as an argument.
 Here's a tabular representation of `reduce`-ing an `Array` of `[1, 2, 3]` with a
 starting point of `0`.
 
-|Operation|Element 0|Element 1|Element2|
-|-|-|-|-|
-|Base Set|1|2|3|
-|Add to previous result function result|1|3|6|
+<table>
+  <thead>
+    <tr>
+      <th>Operation</th>
+      <th>Element 0</th>
+      <th>Element 1</th>
+      <th>Element2</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Base Set</td>
+      <td>1</td>
+      <td>2</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>Add to previous result function result</td>
+      <td>1</td>
+      <td>3</td>
+      <td>6</td>
+    </tr>
+  </tbody>
+</table>
 
 Grand Result = `6`
 
