@@ -36,7 +36,7 @@ Here's a tabular representation:
       <th>Operation</th>
       <th>Element 0</th>
       <th>Element 1</th>
-      <th>Element2</th>
+      <th>Element 2</th>
     </tr>
   </thead>
   <tbody>
@@ -97,7 +97,7 @@ starting point of `0`.
       <th>Operation</th>
       <th>Element 0</th>
       <th>Element 1</th>
-      <th>Element2</th>
+      <th>Element 2</th>
     </tr>
   </thead>
   <tbody>
