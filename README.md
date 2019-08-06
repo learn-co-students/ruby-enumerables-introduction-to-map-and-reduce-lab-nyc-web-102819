@@ -28,6 +28,8 @@ we're going to produce a _new_ `Array` after "transforming" or applying "work"
 to each element. An example would be "multiply each number in this `Array` by
 `-1`, returning a new `Array` of the input `Array` "negative-ized."
 
+![A Negativized Array](https://curriculum-content.s3.amazonaws.com/ruby-enumerables/introduction-to-map-reduce/Image_9_Map%20%26%20Reduce.png)
+
 Here's a tabular representation:
 
 <table>
@@ -87,6 +89,8 @@ expression like `total = total + current_element`. This updating an aggregator
 value and returning it at the end is the essence of _reduce_.
 
 The `reduce` function should be given a starting point as an argument.
+
+![A Summed Array](https://curriculum-content.s3.amazonaws.com/ruby-enumerables/introduction-to-map-reduce/Image_9B_Map%20%26%20Reduce.png)
 
 Here's a tabular representation of `reduce`-ing an `Array` of `[1, 2, 3]` with a
 starting point of `0`.
