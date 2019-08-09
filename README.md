@@ -2,8 +2,8 @@
 
 ## Learning Goals
 
-* Define `map`-like function
-* Define `reduce`-like function
+- Define `map`-like function
+- Define `reduce`-like function
 
 ## Introduction
 
@@ -28,8 +28,39 @@ we're going to produce a _new_ `Array` after "transforming" or applying "work"
 to each element. An example would be "multiply each number in this `Array` by
 `-1`, returning a new `Array` of the input `Array` "negative-ized."
 
-> **Naming History** "Map" comes from mathematics where it means:
+![A Negativized Array](https://curriculum-content.s3.amazonaws.com/ruby-enumerables/introduction-to-map-reduce/Image_9_Map%20%26%20Reduce.png)
 
+Here's a tabular representation:
+
+<table>
+  <thead>
+    <tr>
+      <th>Operation</th>
+      <th>Element 0</th>
+      <th>Element 1</th>
+      <th>Element 2</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Base Set</td>
+      <td>1</td>
+      <td>2</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>"Negativize" Function Result</td>
+      <td>-1</td>
+      <td>-2</td>
+      <td>-3</td>
+    </tr>
+  </tbody>
+</table>
+
+Grand Result = `[-1, -2, -3]`
+
+> **Naming History** "Map" comes from mathematics where it means:
+>
 > 1. Taking an independent variable
 > 2. Plugging it into an equation
 > 3. Getting a result back
@@ -59,6 +90,38 @@ value and returning it at the end is the essence of _reduce_.
 
 The `reduce` function should be given a starting point as an argument.
 
+![A Summed Array](https://curriculum-content.s3.amazonaws.com/ruby-enumerables/introduction-to-map-reduce/Image_9B_Map%20%26%20Reduce.png)
+
+Here's a tabular representation of `reduce`-ing an `Array` of `[1, 2, 3]` with a
+starting point of `0`.
+
+<table>
+  <thead>
+    <tr>
+      <th>Operation</th>
+      <th>Element 0</th>
+      <th>Element 1</th>
+      <th>Element 2</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Base Set</td>
+      <td>1</td>
+      <td>2</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>Add to previous result function result</td>
+      <td>1</td>
+      <td>3</td>
+      <td>6</td>
+    </tr>
+  </tbody>
+</table>
+
+Grand Result = `6`
+
 > **Naming History** This idea of "reduce" comes from lots of places, but we
 > like to think about it coming from the realm of cooking where we make a
 > "reduction" by applying work (aka "heat") until what's left over is the thing
@@ -66,23 +129,26 @@ The `reduce` function should be given a starting point as an argument.
 
 ## Lab
 
+![Map and Reduce in Emojis Inspired by @steveluscher](https://curriculum-content.s3.amazonaws.com/ruby-enumerables/introduction-to-map-reduce/Map_Reduce_Lab.png)
+> Inspired by @steveluscher
+
 In this lab, we're going to write several `map`-like and `reduce`-like
 methods and put them in `lib/my_code.rb`:
 
 ### `map`-like
 
-* `map_to_negativize(source_array)`
-* `map_to_no_change(source_array)`
-* `map_to_double(source_array)`
-* `map_to_square(source_array)`
+- `map_to_negativize(source_array)`
+- `map_to_no_change(source_array)`
+- `map_to_double(source_array)`
+- `map_to_square(source_array)`
 
 Remember, all `map` methods return a new `Array`.
 
 ### `reduce`-like
 
-* `reduce_to_total(source_array, starting_point)`
-* `reduce_to_all_true(source_array)`
-* `reduce_to_any_true(source_array)`
+- `reduce_to_total(source_array, starting_point)`
+- `reduce_to_all_true(source_array)`
+- `reduce_to_any_true(source_array)`
 
 Remember, all `reduce` methods return a _value_.
 
