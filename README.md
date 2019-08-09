@@ -129,6 +129,9 @@ Grand Result = `6`
 
 ## Lab
 
+![Map and Reduce in Emojis Inspired by @steveluscher](https://curriculum-content.s3.amazonaws.com/ruby-enumerables/introduction-to-map-reduce/Map_Reduce_Lab.png)
+> Inspired by @steveluscher
+
 In this lab, we're going to write several `map`-like and `reduce`-like
 methods and put them in `lib/my_code.rb`:
 
