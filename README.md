@@ -10,7 +10,8 @@
 In this lab, we're going to practice building our own versions of the
 Enumerable methods that do `map`-like and `reduce`-like work. In coding these,
 we'll sense the non-DRY (Don't Repeat Yourself) quality of writing `map`- and
-`reduce`-based functions and want a better way.
+`reduce`-based functions and want a better way. You ***should not*** use the
+built-in Ruby methods `map` or `reduce` to solve this lab.
 
 It's also a chance to know that if we ever go to a language that doesn't have
 awesome Enumerables built-in, we could write a replacement function easily.
